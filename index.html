@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David – Front-End Developer pentru landing pages și site-uri de prezentare</title>
+<meta name="description" content="Front-end developer specializat în landing pages și site-uri de prezentare responsive pentru afaceri mici. Vezi proiectele live și scrie-mi.">
+<meta name="theme-color" content="#120C2A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="David – Front-End Developer, landing pages și site-uri de prezentare">
+<meta property="og:description" content="Pagini web clare, rapide și făcute întâi pentru telefon. Vezi proiectele live.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#proiecte">Sari la proiecte</a>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">David</a>
+    <nav aria-label="Principal">
+      <a href="#proiecte">Proiecte</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#pachete">Pachete</a>
+      <a href="#proces">Proces</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Pagini web clare, rapide și făcute întâi pentru telefon.</h1>
+        <p class="lead">Sunt David, front-end developer. Fac landing pages și site-uri de prezentare pentru afaceri mici: cafenele, restaurante, baruri și pensiuni.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#proiecte">Vezi proiectele live</a>
+          <a class="btn btn-ghost" href="#contact">Cere o ofertă</a>
+        </div>
+      </div>
+      <ul class="does" aria-label="Ce fac">
+        <li>Landing pages<small>pentru un produs, un serviciu sau o campanie</small></li>
+        <li>Site-uri de prezentare<small>3–6 pagini pentru o afacere mică</small></li>
+        <li>Redesign<small>pentru site-uri vechi sau greu de folosit pe telefon</small></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="proiecte">
+    <div class="wrap">
+      <h2>Proiecte pe care le poți încerca chiar aici</h2>
+      <div class="viewer">
+        <div>
+          <div class="picker" id="picker" role="group" aria-label="Alege un proiect"></div>
+          <div class="detail" aria-live="polite">
+            <h3 id="d-title"></h3>
+            <p id="d-desc"></p>
+            <p class="fit" id="d-fit"></p>
+          </div>
+        </div>
+        <div>
+          <div class="frame">
+            <div class="bar"><span id="d-url"></span><a id="d-open" href="#" target="_blank" rel="noopener">Deschide în pagină nouă</a></div>
+            <div class="screen" id="screen">
+              <iframe id="view" title="Previzualizare live a proiectului selectat" loading="lazy" src="https://david-has.github.io/Abur/"></iframe>
+            </div>
+          </div>
+          <p class="note">Poți derula și apăsa în previzualizare, exact ca pe site-ul real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servicii">
+    <div class="wrap">
+      <h2>Ce fac</h2>
+      <div class="rows">
+        <article class="row main">
+          <h3>Landing page</h3>
+          <p>O singură pagină, clară, cu un scop: ca vizitatorul să sune, să rezerve sau să se înscrie. Pentru un produs, un serviciu sau o campanie.</p>
+        </article>
+        <article class="row">
+          <h3>Site de prezentare</h3>
+          <p>Între 3 și 6 pagini pentru o afacere mică: despre, servicii sau meniu, galerie, contact.</p>
+        </article>
+        <article class="row">
+          <h3>Redesign</h3>
+          <p>Păstrez ce funcționează la site-ul vechi și refac ce e lent, greu de citit sau prost afișat pe telefon.</p>
+        </article>
+        <article class="row">
+          <h3>Îmbunătățiri pe un site existent</h3>
+          <p>Afișare pe telefon, viteză de încărcare, formular de contact, secțiuni noi.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pachete">
+    <div class="wrap">
+      <h2>Pachete și prețuri</h2>
+      <div class="packs">
+        <article class="pack">
+          <h3>Landing page</h3>
+          <p class="price"><small>de la</small> 800 RON</p>
+          <p class="for">O pagină cu un singur scop: rezervare, apel sau înscriere.</p>
+          <ul>
+            <li>design responsive, făcut întâi pentru telefon</li>
+            <li>prezentare, servicii sau meniu, program, contact</li>
+            <li>buton de apel sau WhatsApp</li>
+            <li>două runde de modificări</li>
+            <li>livrare în aproximativ 5–7 zile</li>
+          </ul>
+          <p class="not">Nu include textele, pozele și logo-ul, nici costul domeniului și al hostingului.</p>
+        </article>
+        <article class="pack">
+          <h3>Landing page premium</h3>
+          <p class="price"><small>de la</small> 1.500 RON</p>
+          <p class="for">Pentru o afacere care vrea o pagină mai bogată și mai personalizată.</p>
+          <ul>
+            <li>tot ce include pachetul de bază</li>
+            <li>design personalizat pentru afacerea ta</li>
+            <li>galerie foto și întrebări frecvente</li>
+            <li>formular de contact care trimite mesajele pe email</li>
+            <li>două runde de modificări</li>
+            <li>livrare în aproximativ 7–10 zile</li>
+          </ul>
+          <p class="not">Nu include textele, pozele și logo-ul, nici costul domeniului și al hostingului.</p>
+        </article>
+        <article class="pack">
+          <h3>Site de prezentare</h3>
+          <p class="price"><small>de la</small> 2.500 RON</p>
+          <p class="for">Între 4 și 6 pagini pentru o afacere mică.</p>
+          <ul>
+            <li>despre, servicii sau meniu, galerie, contact</li>
+            <li>navigare între pagini, pe orice ecran</li>
+            <li>titluri și descrieri pentru Google</li>
+            <li>două runde de modificări</li>
+            <li>livrare în aproximativ 2–3 săptămâni</li>
+          </ul>
+          <p class="not">Nu include textele, pozele și logo-ul, nici costul domeniului și al hostingului.</p>
+        </article>
+      </div>
+      <p class="note">Prețurile sunt orientative și se stabilesc exact după ce vorbim despre ce ai nevoie. Redesign-ul unui site existent îl ofer separat, după ce văd site-ul.</p>
+      <div class="actions"><a class="btn btn-primary" href="#contact">Cere o ofertă</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="proces">
+    <div class="wrap">
+      <h2>Cum lucrăm</h2>
+      <ol class="steps">
+        <li><h3>Cerințe</h3><p>Aflu ce vinzi, cui și ce acțiune vrei de la vizitator.</p></li>
+        <li><h3>Plan</h3><p>Stabilim structura paginii și textele, înainte să scriu cod.</p></li>
+        <li><h3>Dezvoltare</h3><p>Construiesc pagina începând de la ecranul de telefon.</p></li>
+        <li><h3>Testare</h3><p>Verific pe telefon, tabletă și calculator, în mai multe browsere.</p></li>
+        <li><h3>Livrare</h3><p>Două runde de modificări incluse, apoi publicăm pagina împreună.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="despre">
+    <div class="wrap about">
+      <div>
+        <h2>Despre mine</h2>
+        <p>Sunt front-end developer și lucrez freelance. Îmi place să construiesc pagini simple de înțeles, care se încarcă repede și arată bine pe orice ecran.</p>
+        <p>Proiectele de mai sus sunt proiecte personale, făcute ca să arăt cum lucrez. Pentru fiecare client pornesc de la afacerea lui, nu de la un șablon.</p>
+      </div>
+      <ul class="skills" aria-label="Competențe">
+        <li><b>HTML5 și CSS3</b><br>nivel foarte bun</li>
+        <li><b>Design responsive</b><br>mobile first</li>
+        <li><b>JavaScript</b><br>interacțiuni simple: meniuri, formulare, calculatoare</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <h2>Spune-mi despre afacerea ta</h2>
+      <p>Scrie-mi un email cu trei lucruri:</p>
+      <ul>
+        <li>ce afacere ai;</li>
+        <li>ce site ai acum, dacă ai unul;</li>
+        <li>până când ai nevoie de pagina nouă.</li>
+      </ul>
+      <p>Îți răspund în maximum două zile lucrătoare, cu întrebări sau cu o ofertă.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:EMAILUL-TAU@exemplu.ro?subject=Proiect%20web">Trimite un email</a>
+        <a class="btn btn-ghost" href="https://github.com/david-has" target="_blank" rel="noopener">Codul meu pe GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><p>© 2026 David. Proiectele din portofoliu sunt personale și demonstrative; prețurile și datele din ele sunt exemple.</p></div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
